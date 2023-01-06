@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/devcale-site/static/css/main.efb71295.css",
+    "main.js": "/devcale-site/static/js/main.02111186.js",
+    "static/js/787.fb771931.chunk.js": "/devcale-site/static/js/787.fb771931.chunk.js",
+    "static/media/CentraNo2-Bold.ttf": "/devcale-site/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
+    "static/media/CentraNo2-Medium.ttf": "/devcale-site/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
+    "static/media/CentraNo2-Book.ttf": "/devcale-site/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
+    "static/media/header.avif": "/devcale-site/static/media/header.55df4c050af27f51d270.avif",
+    "static/media/github.svg": "/devcale-site/static/media/github.97ed8e7eef60d61ca469881dd6f34511.svg",
+    "static/media/twitter.svg": "/devcale-site/static/media/twitter.8e1c22ff2166b6057bc66bca04a11872.svg",
+    "index.html": "/devcale-site/index.html",
+    "static/media/navicon1.svg": "/devcale-site/static/media/navicon1.721d5414c26365f117e71d46b6641cb2.svg",
+    "main.efb71295.css.map": "/devcale-site/static/css/main.efb71295.css.map",
+    "main.02111186.js.map": "/devcale-site/static/js/main.02111186.js.map",
+    "787.fb771931.chunk.js.map": "/devcale-site/static/js/787.fb771931.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.efb71295.css",
+    "static/js/main.02111186.js"
+  ]
+}
