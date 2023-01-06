@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react';
 import { Nav, Navbar, Container } from 'react-bootstrap';
 import navIcon1 from '../..//assets/img/navicon1.svg';
-import navIcon2 from '../../assets/img/navicon2.svg';
-import navIcon3 from '../../assets/img/navicon3.svg';
+import navIcon2 from '../../assets/img/twitter.svg';
+import navIcon3 from '../../assets/img/github.svg';
 import './NavBar.css';
 
 export const NavBar = () => {
@@ -42,9 +42,9 @@ export const NavBar = () => {
           </Nav>
           <span className='navbar-text'>
             <div className='social-icon'>
-                <a href='#'><img src={navIcon1} alt='' /></a>
+                <a href='https://www.linkedin.com/in/nicolascalero/' target="_blank" rel="noreferrer"><img src={navIcon1} alt='' /></a>
                 <a href='#'><img src={navIcon2} alt='' /></a>
-                <a href='#'><img src={navIcon3} alt='' /></a>
+                <a href='https://github.com/devcale' target="_blank" rel="noreferrer"><img src={navIcon3} alt='' /></a>
             </div>
             <button className='vvd' onClick={() => console.log('Button works')}><span>Contact Me!</span></button>
           </span>
