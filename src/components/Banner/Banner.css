@@ -1,17 +1,11 @@
-.banner {
-    margin-top: 0;
-    padding: 260px 0 100px 0;
-    background-position: top center;
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
+
   .banner .tagline {
     font-weight: 700;
     letter-spacing: 0.8px;
     padding: 8px 10px;
     background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
     border: 1px solid rgba(255, 255, 255, 0.5);
-    font-size: 20px;
+    font-size: calc(10px + 0.4vw);
     margin-bottom: 16px;
     display: inline-block;
   }
@@ -20,9 +14,8 @@
     font-weight: 700;
     letter-spacing: 0.8px;
     line-height: 1;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
     display: block;
-    height: 120px;
   }
   .banner p {
     color: #B8B8B8;
@@ -50,9 +43,17 @@
     margin-left: 25px;
   }
   .banner img {
-    height: 500px;
+    height: 100%;
     animation: updown 5s linear infinite;
   }
+
+  .main-img-container{
+    height: 35vh;
+  }
+
+  
+
+
   @keyframes updown {
       0% {
           transform: translateY(-20px);
@@ -72,12 +73,12 @@
 @media only screen and (max-width: 600px) {
     .banner {
         margin-top: 0;
-        padding: 220px 0 100px 0;
+        padding: 45% 0 100px 0;
         background-position: top center;
         background-size: cover;
         background-repeat: no-repeat;
+        
       }
-
 
       .banner .tagline {
         font-weight: 700;
@@ -110,28 +111,67 @@
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-    .banner h1 {
-        font-size: 3.8em;
-    }
+
+  .banner {
+    margin-top: 100px;
+    padding: 15vh 0 20vh 0;
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .banner h1 {
+    font-size:  calc(35px + 0.4vw);
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    line-height: 1;
+    margin-bottom: 20px;
+    display: block;
+    height: calc(65px + 0.4vw);
+    
+  }
+  .banner p {
+    color: #B8B8B8;
+    font-size:  calc(10px + 0.4vw);
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
+    width: 96%;
+  }
+  .banner img {
+    display: none;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-    .banner h1 {
-        font-size: 3.8em;
-    }
+  
+  .banner h1 {
+    font-size:  calc(32px + 0.4vw);
+    
+  }
+
+  .banner img {
+    display: block;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-    .banner h1 {
-        font-size: 3.8em;
-    }
+  
+  .banner h1 {
+    font-size:  calc(38px + 0.4vw);
+    
+  }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
+  
+    
+
     .banner h1 {
-        font-size: 3.8em;
+        font-size:  calc(52px + 0.4vw);
+        
+        height: calc(105px + 0.4vw);
     }
 } 

@@ -22,6 +22,7 @@ nav.navbar {
     padding: 0 25px;
     font-size: 18px;
     opacity: 0.75;
+    transition: 0.3s ease-in-out;
   }
   nav.navbar .navbar-nav a.nav-link.navbar-link:hover,
   nav.navbar .navbar-nav a.nav-link.navbar-link.active {
@@ -147,3 +148,19 @@ nav.navbar {
   nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
       border-color: transparent;
   }
+
+   /* Extra small devices (phones, 600px and down) */
+   @media only screen and (max-width: 600px) {
+    .nav-collapse{
+        background-color: #121212;
+      }
+}
+
+
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .nav-collapse{
+        background-color: none;
+      }
+}
+   

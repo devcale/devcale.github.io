@@ -55,7 +55,7 @@ export const Banner = () => {
     <section className="banner" id="home">
       <Container>
         <Row className="align-items-center">
-          <Col xs={12} s={10} md={6} xl={7}>
+          <Col xs={12} s={10} md={7} xl={7}>
             <span className="tagline">Welcome visitor!</span>
             <h1>
               {`I'm Nicolás, your next `}
@@ -74,9 +74,11 @@ export const Banner = () => {
               Let's connect! <ArrowRightCircle size={25} />
             </button>
           </Col>
-          <Col xs={0} s={2} md={6} xl={5}>
+          <Col xs={0} s={2} md={5} xl={5} className="main-img-container">
             <img src={headerImg} alt="Header" />
+            
           </Col>
+          
         </Row>
       </Container>
     </section>
