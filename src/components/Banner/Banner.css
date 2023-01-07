@@ -3,7 +3,9 @@
     font-weight: 700;
     letter-spacing: 0.8px;
     padding: 8px 10px;
-    background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
+    background: linear-gradient(-45deg, #3B206E, #6436BA, #7F45ED, #3B206E, #FFF, #3B206E, #7F45ED, #6436BA, #3B206E);
+    background-size: 400% 400%;
+    animation: gradient 25s ease infinite;
     border: 1px solid rgba(255, 255, 255, 0.5);
     font-size: calc(10px + 0.4vw);
     margin-bottom: 16px;
@@ -65,6 +67,20 @@
           transform: translateY(-20px);
       }
   }
+
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+
   .txt-rotate > .wrap {
     border-right: 0.08em solid #666;
   }
@@ -73,7 +89,7 @@
 @media only screen and (max-width: 600px) {
     .banner {
         margin-top: 0;
-        padding: 45% 0 100px 0;
+        padding: 35% 0 0 0;
         background-position: top center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -84,16 +100,18 @@
         font-weight: 700;
         letter-spacing: 0.8px;
         padding: 8px 10px;
-        background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
+        background: linear-gradient(-45deg, #3B206E, #6436BA, #7F45ED, #3B206E, #FFF, #3B206E, #7F45ED, #6436BA, #3B206E);
+        background-size: 400% 400%;
+        animation: gradient 25s ease infinite;
         border: 1px solid rgba(255, 255, 255, 0.5);
         font-size: 15px;
-        margin-bottom: 16px;
+        margin-bottom: 15%;
         display: inline-block;
       }
 
     .banner h1 {
         font-size: 2em;
-        height: 2em;
+        height: 2.6em;
     }
 
     .banner p {
@@ -105,8 +123,39 @@
       }
 
     .banner img {
+      height: 0;
         display: none;
       }
+
+    .main-img-container{
+      height: 0;
+    }
+
+    .banner button svg {
+      font-size: 25px;
+      margin-left: 10px;
+      transition: 0.3s ease-in-out;
+      line-height: 1;
+      animation: arrow 8s linear infinite;
+    }
+
+    @keyframes arrow {
+      0% {
+        transform: translateX(0px);
+    }
+    46% {
+      transform: translateX(0px);
+    }
+    50% {
+        transform: translateX(20px);
+    }
+    54% {
+      transform: translateX(0px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
