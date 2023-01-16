@@ -1,3 +1,11 @@
+  .banner{
+    height: 100vh;
+    background-color: #121212;
+  }
+
+  .banner-container{
+    height: 100%;
+  }
 
   .banner .tagline {
     font-weight: 700;
@@ -49,9 +57,7 @@
     animation: updown 5s linear infinite;
   }
 
-  .main-img-container{
-    height: 35vh;
-  }
+  
 
   
 
@@ -89,7 +95,7 @@
 @media only screen and (max-width: 600px) {
     .banner {
         margin-top: 0;
-        padding: 35% 0 0 0;
+        padding: 0 0 0 0;
         background-position: top center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -162,11 +168,7 @@
 @media only screen and (min-width: 600px) {
 
   .banner {
-    margin-top: 100px;
-    padding: 15vh 0 20vh 0;
-    background-position: top center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    
   }
   
   .banner h1 {
@@ -187,13 +189,21 @@
     width: 96%;
   }
   .banner img {
+    height: 0;
     display: none;
   }
+  .main-img-container{
+      height: 0;
+    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
   
+  .banner{
+    
+  }
+
   .banner h1 {
     font-size:  calc(32px + 0.4vw);
     
@@ -201,6 +211,10 @@
 
   .banner img {
     display: block;
+    height: 100%;
+  }
+  .main-img-container{
+    height: 35vh;
   }
 }
 

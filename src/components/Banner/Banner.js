@@ -53,8 +53,8 @@ export const Banner = () => {
 
   return (
     <section className="banner" id="home">
-      <Container>
-        <Row className="align-items-center">
+      <Container className="banner-container d-flex align-items-center">
+        <Row className="d-flex align-items-center">
           <Col xs={12} s={10} md={7} xl={7}>
             <span className="tagline">Welcome visitor!</span>
             <h1>

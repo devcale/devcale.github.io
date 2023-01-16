@@ -1,0 +1,14 @@
+.skills{
+    background-color: #494FBF;
+    height: 100vh;
+}
+
+.skills-container{
+    height: 100%;
+
+}
+
+.skills-stopper{
+    position: relative;
+    top: 5vh;
+}
