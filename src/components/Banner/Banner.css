@@ -1,189 +1,203 @@
-  .banner{
-    height: 100vh;
-    background-color: #121212;
-  }
+.banner {
+  height: 100vh;
+  background-color: #121212;
+}
 
-  .banner-container{
-    height: 100%;
+.banner-container {
+  height: 100%;
+}
+
+.banner .tagline {
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  padding: 8px 10px;
+  background: linear-gradient(
+    -45deg,
+    #3b206e,
+    #6436ba,
+    #7f45ed,
+    #3b206e,
+    #fff,
+    #3b206e,
+    #7f45ed,
+    #6436ba,
+    #3b206e
+  );
+  background-size: 400% 400%;
+  animation: gradient 25s ease infinite;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  font-size: calc(10px + 0.4vw);
+  margin-bottom: 16px;
+  display: inline-block;
+}
+.banner h1 {
+  font-size: 3.8em;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  line-height: 1;
+  margin-bottom: 0px;
+  display: block;
+}
+.banner p {
+  color: #b8b8b8;
+  font-size: 16px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  width: 96%;
+}
+.banner button {
+  color: #fff;
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 60px;
+  letter-spacing: 0.8px;
+  display: flex;
+  align-items: center;
+}
+.banner button svg {
+  font-size: 25px;
+  margin-left: 10px;
+  transition: 0.3s ease-in-out;
+  line-height: 1;
+  filter: invert(99%) sepia(99%) saturate(0%) hue-rotate(109deg)
+    brightness(103%) contrast(101%);
+}
+.banner button:hover svg {
+  margin-left: 25px;
+}
+.banner img {
+  height: 100%;
+  animation: updown 5s linear infinite;
+}
+
+@keyframes updown {
+  0% {
+    transform: translateY(-20px);
+  }
+  50% {
+    transform: translateY(20px);
+  }
+  100% {
+    transform: translateY(-20px);
+  }
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.txt-rotate > .wrap {
+  border-right: 0.08em solid #666;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .banner {
+    margin-top: 0;
+    padding: 0 0 0 0;
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 
   .banner .tagline {
     font-weight: 700;
     letter-spacing: 0.8px;
     padding: 8px 10px;
-    background: linear-gradient(-45deg, #3B206E, #6436BA, #7F45ED, #3B206E, #FFF, #3B206E, #7F45ED, #6436BA, #3B206E);
+    background: linear-gradient(
+      -45deg,
+      #3b206e,
+      #6436ba,
+      #7f45ed,
+      #3b206e,
+      #fff,
+      #3b206e,
+      #7f45ed,
+      #6436ba,
+      #3b206e
+    );
     background-size: 400% 400%;
     animation: gradient 25s ease infinite;
     border: 1px solid rgba(255, 255, 255, 0.5);
-    font-size: calc(10px + 0.4vw);
-    margin-bottom: 16px;
+    font-size: 15px;
+    margin-bottom: 15%;
     display: inline-block;
   }
+
   .banner h1 {
-    font-size: 3.8em;
-    font-weight: 700;
-    letter-spacing: 0.8px;
-    line-height: 1;
-    margin-bottom: 0px;
-    display: block;
+    font-size: 2em;
+    height: 2.6em;
   }
+
   .banner p {
-    color: #B8B8B8;
-    font-size: 16px;
+    color: #b8b8b8;
+    font-size: 14px;
     letter-spacing: 0.8px;
     line-height: 1.5em;
     width: 96%;
   }
-  .banner button {
-    color: #fff;
-    font-weight: 700;
-    font-size: 20px;
-    margin-top: 60px;
-    letter-spacing: 0.8px;
-    display: flex;
-    align-items: center;
+
+  .banner img {
+    height: 0;
+    display: none;
   }
+
+  .main-img-container {
+    height: 0;
+  }
+
   .banner button svg {
     font-size: 25px;
     margin-left: 10px;
     transition: 0.3s ease-in-out;
     line-height: 1;
-  }
-  .banner button:hover svg {
-    margin-left: 25px;
-  }
-  .banner img {
-    height: 100%;
-    animation: updown 5s linear infinite;
+    animation: arrow 8s linear infinite;
   }
 
-  
-
-  
-
-
-  @keyframes updown {
-      0% {
-          transform: translateY(-20px);
-      }
-      50% {
-          transform: translateY(20px);
-      }
-      100% {
-          transform: translateY(-20px);
-      }
-  }
-
-  @keyframes gradient {
+  @keyframes arrow {
     0% {
-      background-position: 0% 50%;
-    }
-    50% {
-      background-position: 100% 50%;
-    }
-    100% {
-      background-position: 0% 50%;
-    }
-  }
-
-
-  .txt-rotate > .wrap {
-    border-right: 0.08em solid #666;
-  }
-
-   /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-    .banner {
-        margin-top: 0;
-        padding: 0 0 0 0;
-        background-position: top center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        
-      }
-
-      .banner .tagline {
-        font-weight: 700;
-        letter-spacing: 0.8px;
-        padding: 8px 10px;
-        background: linear-gradient(-45deg, #3B206E, #6436BA, #7F45ED, #3B206E, #FFF, #3B206E, #7F45ED, #6436BA, #3B206E);
-        background-size: 400% 400%;
-        animation: gradient 25s ease infinite;
-        border: 1px solid rgba(255, 255, 255, 0.5);
-        font-size: 15px;
-        margin-bottom: 15%;
-        display: inline-block;
-      }
-
-    .banner h1 {
-        font-size: 2em;
-        height: 2.6em;
-    }
-
-    .banner p {
-        color: #B8B8B8;
-        font-size: 14px;
-        letter-spacing: 0.8px;
-        line-height: 1.5em;
-        width: 96%;
-      }
-
-    .banner img {
-      height: 0;
-        display: none;
-      }
-
-    .main-img-container{
-      height: 0;
-    }
-
-    .banner button svg {
-      font-size: 25px;
-      margin-left: 10px;
-      transition: 0.3s ease-in-out;
-      line-height: 1;
-      animation: arrow 8s linear infinite;
-    }
-
-    @keyframes arrow {
-      0% {
-        transform: translateX(0px);
+      transform: translateX(0px);
     }
     46% {
       transform: translateX(0px);
     }
     50% {
-        transform: translateX(20px);
+      transform: translateX(20px);
     }
     54% {
       transform: translateX(0px);
     }
     100% {
-        transform: translateX(0px);
+      transform: translateX(0px);
     }
-    }
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-
   .banner {
-    
   }
-  
+
   .banner h1 {
-    font-size:  calc(35px + 0.4vw);
+    font-size: calc(35px + 0.4vw);
     font-weight: 700;
     letter-spacing: 0.8px;
     line-height: 1;
     margin-bottom: 20px;
     display: block;
     height: calc(65px + 0.4vw);
-    
   }
   .banner p {
-    color: #B8B8B8;
-    font-size:  calc(10px + 0.4vw);
+    color: #b8b8b8;
+    font-size: calc(10px + 0.4vw);
     letter-spacing: 0.8px;
     line-height: 1.5em;
     width: 96%;
@@ -192,49 +206,41 @@
     height: 0;
     display: none;
   }
-  .main-img-container{
-      height: 0;
-    }
+  .main-img-container {
+    height: 0;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-  
-  .banner{
-    
+  .banner {
   }
 
   .banner h1 {
-    font-size:  calc(32px + 0.4vw);
-    
+    font-size: calc(32px + 0.4vw);
   }
 
   .banner img {
     display: block;
     height: 100%;
   }
-  .main-img-container{
+  .main-img-container {
     height: 35vh;
   }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-  
   .banner h1 {
-    font-size:  calc(38px + 0.4vw);
-    
+    font-size: calc(38px + 0.4vw);
   }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-  
-    
+  .banner h1 {
+    font-size: calc(52px + 0.4vw);
 
-    .banner h1 {
-        font-size:  calc(52px + 0.4vw);
-        
-        height: calc(105px + 0.4vw);
-    }
-} 
+    height: calc(105px + 0.4vw);
+  }
+}

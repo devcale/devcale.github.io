@@ -1,90 +1,123 @@
-.projects{
-    
-    height: 100vh;
+.projects {
+  height: 100vh;
 }
 
-@keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
+@keyframes projects-gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
-.projects-container{
-    height: 100%;
-    
+.projects-container {
+  height: 100%;
 }
 
-.projects-stopper{
-    position: relative;
-    top: 5vh;
+.projects-stopper {
+  position: relative;
+  top: 5vh;
 }
 
+.carousel-container {
+  border-radius: 5px;
+  height: 60vh;
+  width: 70vw;
+  margin: 5%;
+  background: linear-gradient(
+    -45deg,
+    #769df4,
+    #7abded,
+    #fdb0c9,
+    #ef83cf,
+    #9175e3,
+    #3888f1,
+    #00b6fe,
+    #00e5fe,
+    #45fee8,
+    #59e0ed,
+    #59e0ed,
+    #45fee8,
+    #00e5fe,
+    #00b6fe,
+    #3888f1,
+    #9175e3,
+    #ef83cf,
+    #fdb0c9,
+    #7abded,
+    #769df4
+  );
+  background-size: 400% 400%;
+  animation: projects-gradient 15s ease infinite;
+}
 
+.carousel-inner-container {
+  position: relative;
+  left: 5%;
+  top: 5%;
+  height: 90%;
+  width: 90%;
+}
 
-.carousel-container{
-    border-radius: 5px;
+.color-overlay {
+  border-radius: 5px;
+  position: relative;
+  left: 0.5%;
+  top: 1%;
+  height: 98%;
+  width: 99%;
+  background-color: #121212;
+}
+
+.carousel-container img {
+  height: 50vh;
+  object-fit: cover;
+}
+
+.carousel-caption {
+  background-color: #0f0f0f;
+  border-radius: 5px;
+  border: 2px solid #9c9c9c;
+}
+
+.carousel-caption h3 {
+  font-size: calc(18px + 0.4vw);
+}
+
+.carousel-caption p {
+  font-size: calc(8px + 0.4vw);
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  background-color: rgba(255, 255, 255, 0);
+  width: 5%;
+}
+
+@media only screen and (max-width: 600px) {
+  .carousel-container {
+    border-radius: 25px;
     height: 60vh;
-    width: 70vw;
-    margin: 5%;
-    background: linear-gradient(-45deg, #769DF4, #7ABDED, #FDB0C9, #EF83CF, #9175E3, #3888F1, #00B6FE, #00E5FE, #45FEE8, #59E0ED, #59E0ED, #45FEE8, #00E5FE, #00B6FE, #3888F1);
-	background-size: 400% 400%;
-	animation: gradient 5s ease infinite;
-}
+    width: 90vw;
+    margin: 0%;
+    background: linear-gradient(-45deg, #000000, #121212, #fff);
+    background-size: 400% 400%;
+    animation: gradient 5s ease infinite;
+  }
 
-.carousel-inner-container{
-    position: relative;
-    left: 5%;
-    top: 5%;
-    height: 90%;
-    width: 90%;
-}
-
-.color-overlay{
-    border-radius: 5px;
+  .color-overlay {
+    border-radius: 25px;
     position: relative;
     left: 0.5%;
     top: 1%;
     height: 98%;
     width: 99%;
     background-color: #121212;
-}
-
-.carousel-container img{
-    height: 50vh;
-    object-fit: cover;
-}
-
-.carousel-caption{
-    background-color: #121212;
-
-}
-
-@media only screen and (max-width: 600px) {
-    .carousel-container{
-        border-radius: 25px;
-        height: 60vh;
-        width: 90vw;
-        margin: 0%;
-        background: linear-gradient(-45deg, #000000, #121212, #fff);
-        background-size: 400% 400%;
-        animation: gradient 5s ease infinite;
-    }
-
-    .color-overlay{
-        border-radius: 25px;
-        position: relative;
-        left: 0.5%;
-        top: 1%;
-        height: 98%;
-        width: 99%;
-        background-color: #121212;
-    }
-
-    
+  }
 }

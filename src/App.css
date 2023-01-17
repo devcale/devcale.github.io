@@ -1,17 +1,17 @@
 /* Custom Fonts */
 @font-face {
   font-family: Centra;
-  src: url('./assets/font/CentraNo2-Bold.ttf');
+  src: url("./assets/font/CentraNo2-Bold.ttf");
   font-weight: 700;
 }
 @font-face {
   font-family: Centra;
-  src: url('./assets/font/CentraNo2-Medium.ttf');
+  src: url("./assets/font/CentraNo2-Medium.ttf");
   font-weight: 500;
 }
 @font-face {
   font-family: Centra;
-  src: url('./assets/font/CentraNo2-Book.ttf');
+  src: url("./assets/font/CentraNo2-Book.ttf");
   font-weight: 400;
 }
 
@@ -28,28 +28,36 @@ html {
   scroll-padding-top: 75px;
 }
 
-body{
+body {
   font-weight: 400;
   overflow-x: hidden;
   position: relative;
   background-color: #121212 !important;
   color: #fff !important;
-  font-family: 'Centra', sans-serif !important;
+  font-family: "Centra", sans-serif !important;
 }
 
-h1, h2, h3, h4, h5, h6{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 0;
   padding: 0;
   line-height: normal;
 }
-
 
 button {
   border: 0;
   background-color: transparent;
 }
 
+.carousel-inner,
+.carousel-item {
+  height: 100%;
+}
 
-
-
-
+.carousel-indicators {
+  bottom: -20px !important;
+}

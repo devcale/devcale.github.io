@@ -31,7 +31,7 @@ export const NavBar = () => {
     <Navbar  expand="lg" variant='dark' className={scrolled ? "scrolled":""}>
       <Container>
         <Navbar.Brand >
-            <span>Nicolás Calero</span>
+            <span className='no-select'>Nicolás Calero</span>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" className='nav-collapse'>
