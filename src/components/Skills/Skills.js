@@ -1,68 +1,187 @@
-import "./Skills.css";
+import styles from "./skills.module.css";
 import { Col, Container, Row, Carousel } from "react-bootstrap";
+import { useRef, useEffect, useState } from "react";
+import { useInView } from 'react-intersection-observer';
 
 export const Skills = () => {
+
+  const { ref: circleOne, inView: rowOneVisible } = useInView();
+
+  const { ref: circleTwo, inView: rowTwoVisible } = useInView();
+
+  const { ref: circleThree, inView: rowThreeVisible } = useInView();
+
+  const { ref: circleFour, inView: rowFourVisible } = useInView();
+  
+
   return (
-    <section className="skills">
-      <div className="skills-stopper" id="skills"></div>
-      <div className="container-container d-flex align-items-center">
-        <Container className="skills-container ">
-          <Row className="rowo-1  ">
-            <Col className="colo-1">
-              <h1>{`My main skills are: `}</h1>
+    <section className={styles.skills}>
+      <div className={styles.skillsStopper} id="skills"></div>
+      <div className={`${styles.containerContainer} d-flex align-items-center`}>
+        <Container className={styles.skillsContainer}>
+          <Row>
+            <Col>
+              <h1 className={styles.skillsTitle}>{`My main skills are: `}</h1>
             </Col>
           </Row>
-          <Row className="rowo-2">
-            <Carousel className="skills-carousel">
+          <Row>
+            <Carousel slide={false}  className={styles.skillsCarousel}>
               <Carousel.Item>
-                <Container className="container-skill">
-                  <Row className="row-skill">
-                    <Col className="col-skill left-skill d-flex align-items-center justify-content-center">
-                      <div className="justify-content-center ">
-                        <svg class="pie">
-                          <circle cx="100" cy="100" r="80"></circle>
-                          <path d="
-                          M 100 100 
-                          L 100 10 
-                          A 80,80 1 0,1 178,55  z
-                          z
-                          "></path>
-                        </svg>
-
-                        <p className="skill-name">JavaScript</p>
-                      </div>
-                    </Col>
-                    <Col className="col-skill center-skill d-flex align-items-center justify-content-center">
-                      <div className="justify-content-center ">
-                        <div className="circle d-flex align-items-center justify-content-center">
-                          <div className="circle-overlay">
+                <Container className={styles.containerSkill}>
+                  <Row className={styles.rowSkill}>
+                  <Col className={`${styles.colSkill} d-flex align-items-center justify-content-center`}>
+                      <div className="justify-content-center"> 
+                        <div ref = {circleOne} className={`d-flex align-items-center justify-content-center ${styles.circleHigh} ${rowOneVisible ? styles.animateCircle : ''} `}>
+                          <div  className={styles.circleOverlay}>
                             <p></p>
                           </div>
                         </div>
 
-                        <p className="skill-name">Go</p>
+                        <p className={styles.skillName}>JavaScript</p>
                       </div>
                     </Col>
-                    <Col className="col-skill right-skill d-flex align-items-center justify-content-center">
-                      <div className="justify-content-center ">
-                        <div className="circle d-flex align-items-center justify-content-center">
-                          <div className="circle-overlay">
+                    <Col className={`${styles.colSkill} d-flex align-items-center justify-content-center`}>
+                      <div className="justify-content-center"> 
+                        <div ref = {circleOne} className={`d-flex align-items-center justify-content-center ${styles.circleMed} ${rowOneVisible ? styles.animateCircle : ''}`}>
+                          <div  className={styles.circleOverlay}>
                             <p></p>
                           </div>
                         </div>
 
-                        <p className="skill-name">Python</p>
+                        <p className={styles.skillName}>Go</p>
+                      </div>
+                    </Col>
+                    <Col className={`${styles.colSkill} d-flex align-items-center justify-content-center`}>
+                      <div className="justify-content-center"> 
+                        <div ref = {circleOne} className={`d-flex align-items-center justify-content-center ${styles.circleHigh} ${rowOneVisible ? styles.animateCircle : ''}`}>
+                          <div  className={styles.circleOverlay}>
+                            <p></p>
+                          </div>
+                        </div>
+
+                        <p className={styles.skillName}>Python</p>
                       </div>
                     </Col>
                   </Row>
                 </Container>
               </Carousel.Item>
-              {/* <Carousel.Item>
-                <div></div>
+              <Carousel.Item>
+                <Container className={styles.containerSkill}>
+                  <Row className={styles.rowSkill}>
+                  <Col className={`${styles.colSkill} d-flex align-items-center justify-content-center`}>
+                      <div className="justify-content-center"> 
+                        <div ref = {circleTwo} className={`d-flex align-items-center justify-content-center ${styles.circleHigh} ${rowTwoVisible ? styles.animateCircle : ''}`}>
+                          <div  className={styles.circleOverlay}>
+                            <p></p>
+                          </div>
+                        </div>
+
+                        <p className={styles.skillName}>ReactJS</p>
+                      </div>
+                    </Col>
+                    <Col className={`${styles.colSkill} d-flex align-items-center justify-content-center`}>
+                      <div className="justify-content-center"> 
+                        <div ref = {circleTwo} className={`d-flex align-items-center justify-content-center ${styles.circleMedLow} ${rowTwoVisible ? styles.animateCircle : ''}`}>
+                          <div  className={styles.circleOverlay}>
+                            <p></p>
+                          </div>
+                        </div>
+
+                        <p className={styles.skillName}>Angular</p>
+                      </div>
+                    </Col>
+                    <Col className={`${styles.colSkill} d-flex align-items-center justify-content-center`}>
+                      <div className="justify-content-center"> 
+                        <div ref = {circleTwo} className={`d-flex align-items-center justify-content-center ${styles.circleMed} ${rowTwoVisible ? styles.animateCircle : ''}`}>
+                          <div  className={styles.circleOverlay}>
+                            <p></p>
+                          </div>
+                        </div>
+
+                        <p className={styles.skillName}>NestJS</p>
+                      </div>
+                    </Col>
+                  </Row>
+                </Container>
               </Carousel.Item>
               <Carousel.Item>
-                <div></div>
-              </Carousel.Item> */}
+                <Container className={styles.containerSkill}>
+                  <Row className={styles.rowSkill}>
+                  <Col className={`${styles.colSkill} d-flex align-items-center justify-content-center`}>
+                      <div className="justify-content-center"> 
+                        <div ref = {circleThree} className={`d-flex align-items-center justify-content-center ${styles.circleMed} ${rowThreeVisible ? styles.animateCircle : ''}`}>
+                          <div  className={styles.circleOverlay}>
+                            <p></p>
+                          </div>
+                        </div>
+
+                        <p className={styles.skillName}>Flutter</p>
+                      </div>
+                    </Col>
+                    <Col className={`${styles.colSkill} d-flex align-items-center justify-content-center`}>
+                      <div className="justify-content-center"> 
+                        <div ref = {circleThree} className={`d-flex align-items-center justify-content-center ${styles.circleMedLow} ${rowThreeVisible ? styles.animateCircle : ''}`}>
+                          <div  className={styles.circleOverlay}>
+                            <p></p>
+                          </div>
+                        </div>
+
+                        <p className={styles.skillName}>Dart</p>
+                      </div>
+                    </Col>
+                    <Col className={`${styles.colSkill} d-flex align-items-center justify-content-center`}>
+                      <div className="justify-content-center"> 
+                      <div ref = {circleThree} className={`d-flex align-items-center justify-content-center ${styles.circleMedLow} ${rowThreeVisible ? styles.animateCircle : ''} `}>
+                          <div  className={styles.circleOverlay}>
+                            <p></p>
+                          </div>
+                        </div>
+
+                        <p className={styles.skillName}>Agile Methodologies</p>
+                      </div>
+                    </Col>
+                  </Row>
+                </Container>
+              </Carousel.Item>
+              <Carousel.Item>
+                <Container className={styles.containerSkill}>
+                  <Row className={styles.rowSkill}>
+                  <Col className={`${styles.colSkill} d-flex align-items-center justify-content-center`}>
+                      <div className="justify-content-center"> 
+                        <div ref = {circleFour} className={`d-flex align-items-center justify-content-center ${styles.circleMedLow} ${rowFourVisible ? styles.animateCircle : ''} `}>
+                          <div  className={styles.circleOverlay}>
+                            <p></p>
+                          </div>
+                        </div>
+
+                        <p className={styles.skillName}>Cloud Management</p>
+                      </div>
+                    </Col>
+                    <Col className={`${styles.colSkill} d-flex align-items-center justify-content-center`}>
+                      <div className="justify-content-center"> 
+                        <div ref = {circleFour} className={`d-flex align-items-center justify-content-center ${styles.circleHigh} ${rowFourVisible ? styles.animateCircle : ''}`}>
+                          <div  className={styles.circleOverlay}>
+                            <p></p>
+                          </div>
+                        </div>
+
+                        <p className={styles.skillName}>Database Management</p>
+                      </div>
+                    </Col>
+                    <Col className={`${styles.colSkill} d-flex align-items-center justify-content-center`}>
+                      <div className="justify-content-center"> 
+                        <div ref = {circleFour} className={`d-flex align-items-center justify-content-center ${styles.circleMed} ${rowFourVisible ? styles.animateCircle : ''}`}>
+                          <div  className={styles.circleOverlay}>
+                            <p></p>
+                          </div>
+                        </div>
+
+                        <p className={styles.skillName}>Automated Testing</p>
+                      </div>
+                    </Col>
+                  </Row>
+                </Container>
+              </Carousel.Item>
             </Carousel>
           </Row>
         </Container>
