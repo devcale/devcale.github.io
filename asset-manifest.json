@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/devcale-site/static/css/main.c03f0851.css",
-    "main.js": "/devcale-site/static/js/main.0f07d3e4.js",
+    "main.css": "/devcale-site/static/css/main.6cbdfa9b.css",
+    "main.js": "/devcale-site/static/js/main.ecbcdc12.js",
     "static/js/787.fb771931.chunk.js": "/devcale-site/static/js/787.fb771931.chunk.js",
     "static/media/parchapp.jpg": "/devcale-site/static/media/parchapp.14cb2ef3b4f6df61a610.jpg",
     "static/media/wizard-chess.jpg": "/devcale-site/static/media/wizard-chess.cfcc056dc2c2e8ee230d.jpg",
@@ -14,12 +14,12 @@
     "static/media/twitter.svg": "/devcale-site/static/media/twitter.8e1c22ff2166b6057bc66bca04a11872.svg",
     "index.html": "/devcale-site/index.html",
     "static/media/navicon1.svg": "/devcale-site/static/media/navicon1.721d5414c26365f117e71d46b6641cb2.svg",
-    "main.c03f0851.css.map": "/devcale-site/static/css/main.c03f0851.css.map",
-    "main.0f07d3e4.js.map": "/devcale-site/static/js/main.0f07d3e4.js.map",
+    "main.6cbdfa9b.css.map": "/devcale-site/static/css/main.6cbdfa9b.css.map",
+    "main.ecbcdc12.js.map": "/devcale-site/static/js/main.ecbcdc12.js.map",
     "787.fb771931.chunk.js.map": "/devcale-site/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c03f0851.css",
-    "static/js/main.0f07d3e4.js"
+    "static/css/main.6cbdfa9b.css",
+    "static/js/main.ecbcdc12.js"
   ]
 }
