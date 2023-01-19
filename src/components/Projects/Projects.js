@@ -55,8 +55,9 @@ export const Projects = () => {
                     <Carousel.Caption>
                       <h3>Authy's Contextual Auth</h3>
                       <p>
-                        Praesent commodo cursus magna, vel scelerisque nisl
-                        consectetur.
+                        Developed a new feature that enhances the security model
+                        of every Authy customer by learning from the user's
+                        context and providing a risk model for each 2FA event
                       </p>
                     </Carousel.Caption>
                   </Carousel.Item>

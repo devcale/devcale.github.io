@@ -31,7 +31,7 @@ export const Skills = () => {
                   <Row className={styles.rowSkill}>
                   <Col className={`${styles.colSkill} d-flex align-items-center justify-content-center`}>
                       <div className="justify-content-center"> 
-                        <div ref = {circleOne} className={`d-flex align-items-center justify-content-center ${styles.circleHigh} ${rowOneVisible ? styles.animateCircle : ''} `}>
+                        <div ref = {circleOne} className={`d-flex align-items-center justify-content-center ${styles.circle} ${styles.high} ${rowOneVisible ? styles.animateCircle : ''} `}>
                           <div  className={styles.circleOverlay}>
                             <p></p>
                           </div>
@@ -42,7 +42,7 @@ export const Skills = () => {
                     </Col>
                     <Col className={`${styles.colSkill} d-flex align-items-center justify-content-center`}>
                       <div className="justify-content-center"> 
-                        <div ref = {circleOne} className={`d-flex align-items-center justify-content-center ${styles.circleMed} ${rowOneVisible ? styles.animateCircle : ''}`}>
+                        <div ref = {circleOne} className={`d-flex align-items-center justify-content-center ${styles.circle} ${styles.medium} ${rowOneVisible ? styles.animateCircle : ''}`}>
                           <div  className={styles.circleOverlay}>
                             <p></p>
                           </div>
@@ -53,7 +53,7 @@ export const Skills = () => {
                     </Col>
                     <Col className={`${styles.colSkill} d-flex align-items-center justify-content-center`}>
                       <div className="justify-content-center"> 
-                        <div ref = {circleOne} className={`d-flex align-items-center justify-content-center ${styles.circleHigh} ${rowOneVisible ? styles.animateCircle : ''}`}>
+                        <div ref = {circleOne} className={`d-flex align-items-center justify-content-center ${styles.circle} ${styles.high} ${rowOneVisible ? styles.animateCircle : ''}`}>
                           <div  className={styles.circleOverlay}>
                             <p></p>
                           </div>
@@ -70,7 +70,7 @@ export const Skills = () => {
                   <Row className={styles.rowSkill}>
                   <Col className={`${styles.colSkill} d-flex align-items-center justify-content-center`}>
                       <div className="justify-content-center"> 
-                        <div ref = {circleTwo} className={`d-flex align-items-center justify-content-center ${styles.circleHigh} ${rowTwoVisible ? styles.animateCircle : ''}`}>
+                        <div ref = {circleTwo} className={`d-flex align-items-center justify-content-center ${styles.circle} ${styles.high} ${rowTwoVisible ? styles.animateCircle : ''}`}>
                           <div  className={styles.circleOverlay}>
                             <p></p>
                           </div>
@@ -81,7 +81,7 @@ export const Skills = () => {
                     </Col>
                     <Col className={`${styles.colSkill} d-flex align-items-center justify-content-center`}>
                       <div className="justify-content-center"> 
-                        <div ref = {circleTwo} className={`d-flex align-items-center justify-content-center ${styles.circleMedLow} ${rowTwoVisible ? styles.animateCircle : ''}`}>
+                        <div ref = {circleTwo} className={`d-flex align-items-center justify-content-center ${styles.circle} ${styles.medLow} ${rowTwoVisible ? styles.animateCircle : ''}`}>
                           <div  className={styles.circleOverlay}>
                             <p></p>
                           </div>
@@ -92,7 +92,7 @@ export const Skills = () => {
                     </Col>
                     <Col className={`${styles.colSkill} d-flex align-items-center justify-content-center`}>
                       <div className="justify-content-center"> 
-                        <div ref = {circleTwo} className={`d-flex align-items-center justify-content-center ${styles.circleMed} ${rowTwoVisible ? styles.animateCircle : ''}`}>
+                        <div ref = {circleTwo} className={`d-flex align-items-center justify-content-center ${styles.circle} ${styles.medium} ${rowTwoVisible ? styles.animateCircle : ''}`}>
                           <div  className={styles.circleOverlay}>
                             <p></p>
                           </div>
@@ -109,7 +109,7 @@ export const Skills = () => {
                   <Row className={styles.rowSkill}>
                   <Col className={`${styles.colSkill} d-flex align-items-center justify-content-center`}>
                       <div className="justify-content-center"> 
-                        <div ref = {circleThree} className={`d-flex align-items-center justify-content-center ${styles.circleMed} ${rowThreeVisible ? styles.animateCircle : ''}`}>
+                        <div ref = {circleThree} className={`d-flex align-items-center justify-content-center ${styles.circle} ${styles.medium} ${rowThreeVisible ? styles.animateCircle : ''}`}>
                           <div  className={styles.circleOverlay}>
                             <p></p>
                           </div>
@@ -120,7 +120,7 @@ export const Skills = () => {
                     </Col>
                     <Col className={`${styles.colSkill} d-flex align-items-center justify-content-center`}>
                       <div className="justify-content-center"> 
-                        <div ref = {circleThree} className={`d-flex align-items-center justify-content-center ${styles.circleMedLow} ${rowThreeVisible ? styles.animateCircle : ''}`}>
+                        <div ref = {circleThree} className={`d-flex align-items-center justify-content-center ${styles.circle} ${styles.medLow} ${rowThreeVisible ? styles.animateCircle : ''}`}>
                           <div  className={styles.circleOverlay}>
                             <p></p>
                           </div>
@@ -131,7 +131,7 @@ export const Skills = () => {
                     </Col>
                     <Col className={`${styles.colSkill} d-flex align-items-center justify-content-center`}>
                       <div className="justify-content-center"> 
-                      <div ref = {circleThree} className={`d-flex align-items-center justify-content-center ${styles.circleMedLow} ${rowThreeVisible ? styles.animateCircle : ''} `}>
+                      <div ref = {circleThree} className={`d-flex align-items-center justify-content-center ${styles.circle} ${styles.medLow} ${rowThreeVisible ? styles.animateCircle : ''} `}>
                           <div  className={styles.circleOverlay}>
                             <p></p>
                           </div>
@@ -148,7 +148,7 @@ export const Skills = () => {
                   <Row className={styles.rowSkill}>
                   <Col className={`${styles.colSkill} d-flex align-items-center justify-content-center`}>
                       <div className="justify-content-center"> 
-                        <div ref = {circleFour} className={`d-flex align-items-center justify-content-center ${styles.circleMedLow} ${rowFourVisible ? styles.animateCircle : ''} `}>
+                        <div ref = {circleFour} className={`d-flex align-items-center justify-content-center ${styles.circle} ${styles.medLow} ${rowFourVisible ? styles.animateCircle : ''} `}>
                           <div  className={styles.circleOverlay}>
                             <p></p>
                           </div>
@@ -159,7 +159,7 @@ export const Skills = () => {
                     </Col>
                     <Col className={`${styles.colSkill} d-flex align-items-center justify-content-center`}>
                       <div className="justify-content-center"> 
-                        <div ref = {circleFour} className={`d-flex align-items-center justify-content-center ${styles.circleHigh} ${rowFourVisible ? styles.animateCircle : ''}`}>
+                        <div ref = {circleFour} className={`d-flex align-items-center justify-content-center ${styles.circle} ${styles.high} ${rowFourVisible ? styles.animateCircle : ''}`}>
                           <div  className={styles.circleOverlay}>
                             <p></p>
                           </div>
@@ -170,7 +170,7 @@ export const Skills = () => {
                     </Col>
                     <Col className={`${styles.colSkill} d-flex align-items-center justify-content-center`}>
                       <div className="justify-content-center"> 
-                        <div ref = {circleFour} className={`d-flex align-items-center justify-content-center ${styles.circleMed} ${rowFourVisible ? styles.animateCircle : ''}`}>
+                        <div ref = {circleFour} className={`d-flex align-items-center justify-content-center ${styles.circle} ${styles.medium} ${rowFourVisible ? styles.animateCircle : ''}`}>
                           <div  className={styles.circleOverlay}>
                             <p></p>
                           </div>

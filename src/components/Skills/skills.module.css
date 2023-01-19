@@ -64,9 +64,19 @@ path {
   fill: black;
 }
 
-.circleHigh {
-  height: calc(150px + 0.4vh);
-  width: calc(150px + 0.4vh);
+.circleOverlay {
+  /* height: calc(130px + 0.4vh);
+  width: calc(130px + 0.4vh); */
+  height: calc(60px + 5vh);
+  width: calc(60px + 5vh);
+  background-color: #000;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.circle {
+  height: calc(100px + 5vh);
+  width: calc(100px + 5vh);
   background: linear-gradient(
     -45deg,
     #769df4,
@@ -94,6 +104,9 @@ path {
   background-position: 0% 50%;
   border-radius: 50%;
   display: inline-block;
+}
+
+.high {
   clip-path: polygon(
     50% 50%,
     50% 0,
@@ -109,36 +122,7 @@ path {
   );
 }
 
-.circleMed {
-  height: calc(150px + 0.4vh);
-  width: calc(150px + 0.4vh);
-  background: linear-gradient(
-    -45deg,
-    #769df4,
-    #7abded,
-    #fdb0c9,
-    #ef83cf,
-    #9175e3,
-    #3888f1,
-    #00b6fe,
-    #00e5fe,
-    #45fee8,
-    #59e0ed,
-    #59e0ed,
-    #45fee8,
-    #00e5fe,
-    #00b6fe,
-    #3888f1,
-    #9175e3,
-    #ef83cf,
-    #fdb0c9,
-    #7abded,
-    #769df4
-  );
-  background-size: 400% 400%;
-  background-position: 0% 50%;
-  border-radius: 50%;
-  display: inline-block;
+.medium {
   clip-path: polygon(
     50% 50%,
     50% 0,
@@ -154,36 +138,7 @@ path {
   );
 }
 
-.circleMedLow {
-  height: calc(150px + 0.4vh);
-  width: calc(150px + 0.4vh);
-  background: linear-gradient(
-    -45deg,
-    #769df4,
-    #7abded,
-    #fdb0c9,
-    #ef83cf,
-    #9175e3,
-    #3888f1,
-    #00b6fe,
-    #00e5fe,
-    #45fee8,
-    #59e0ed,
-    #59e0ed,
-    #45fee8,
-    #00e5fe,
-    #00b6fe,
-    #3888f1,
-    #9175e3,
-    #ef83cf,
-    #fdb0c9,
-    #7abded,
-    #769df4
-  );
-  background-size: 400% 400%;
-  background-position: 0% 50%;
-  border-radius: 50%;
-  display: inline-block;
+.medLow {
   clip-path: polygon(
     50% 50%,
     50% 0,
@@ -199,36 +154,7 @@ path {
   );
 }
 
-.circleLow {
-  height: calc(150px + 0.4vh);
-  width: calc(150px + 0.4vh);
-  background: linear-gradient(
-    -45deg,
-    #769df4,
-    #7abded,
-    #fdb0c9,
-    #ef83cf,
-    #9175e3,
-    #3888f1,
-    #00b6fe,
-    #00e5fe,
-    #45fee8,
-    #59e0ed,
-    #59e0ed,
-    #45fee8,
-    #00e5fe,
-    #00b6fe,
-    #3888f1,
-    #9175e3,
-    #ef83cf,
-    #fdb0c9,
-    #7abded,
-    #769df4
-  );
-  background-size: 400% 400%;
-  background-position: 0% 50%;
-  border-radius: 50%;
-  display: inline-block;
+.low {
   clip-path: polygon(
     50% 50%,
     50% 0,
@@ -245,7 +171,7 @@ path {
 }
 
 .animateCircle {
-  animation-duration: 2s;
+  animation-duration: 1.5s;
   animation-name: circle-in;
   animation-timing-function: linear;
 }
@@ -499,12 +425,4 @@ path {
     ); */
     background-position: 0% 50%;
   }
-}
-
-.circleOverlay {
-  height: calc(130px + 0.4vh);
-  width: calc(130px + 0.4vh);
-  background-color: #000;
-  border-radius: 50%;
-  display: inline-block;
 }

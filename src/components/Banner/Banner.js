@@ -49,6 +49,8 @@ export const Banner = () => {
     }
   }
 
+ 
+
 
 
   return (
@@ -70,7 +72,7 @@ export const Banner = () => {
               architecture with the best security practices. Ready to make an
               impact in the next team I join, and become the best in what I do.
             </p>
-            <button onClick={() => console.log("body connect")}>
+            <button onClick={() => window.location = 'mailto:nicolas.calero1@gmail.com'}>
               Let's connect! <ArrowRightCircle size={25} />
             </button>
           </Col>

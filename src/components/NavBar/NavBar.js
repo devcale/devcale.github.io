@@ -46,7 +46,7 @@ export const NavBar = () => {
                 <a href='#'><img src={navIcon2} alt='' /></a>
                 <a href='https://github.com/devcale' target="_blank" rel="noreferrer"><img src={navIcon3} alt='' /></a>
             </div>
-            <button className='vvd' onClick={() => console.log('Button works')}><span>Contact Me!</span></button>
+            <button className='vvd' onClick={() => window.location = 'mailto:nicolas.calero1@gmail.com'}><span>Contact Me!</span></button>
           </span>
         </Navbar.Collapse>
       </Container>
