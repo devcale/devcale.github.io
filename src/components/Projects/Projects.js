@@ -23,9 +23,8 @@ export const Projects = () => {
                     />
                     <Carousel.Caption>
                       <h3>Wizard Chess VR</h3>
-                      <p>
-                        Virtual Reality video game developed as capstone
-                        project.
+                      <p className="padding-sides">
+                        As my Capstone Project, I developed a Virtual Reality multiplayer video game with voice commands using C#, Unity3D and PlasticSCM in a team of three. The project was showcased and tested at <a className="highlighted" href='https://www.enelsofa.com' target="_blank" rel="noreferrer">SOFA</a> 2022 Bogota fair. 
                       </p>
                     </Carousel.Caption>
                   </Carousel.Item>
@@ -38,10 +37,9 @@ export const Projects = () => {
 
                     <Carousel.Caption>
                       <h3>Parchapp Mobile App</h3>
-                      <p>
-                        Cross platform mobile application for Android and iOS
-                        that helps people organize meetings with their friend
-                        group.
+                      <p className="padding-sides">
+                        I led the android design & development of a cross platform mobile application for Android and iOS within a team of six, which helps people organize meetings with their friend
+                        group. Design was driven by the <a className="highlighted" href='https://www.interaction-design.org/literature/topics/design-thinking' target="_blank" rel="noreferrer">Design Thinking</a> methodology and development was driven using Flutter and Dart.
                       </p>
                     </Carousel.Caption>
                   </Carousel.Item>
@@ -53,11 +51,11 @@ export const Projects = () => {
                     />
 
                     <Carousel.Caption>
-                      <h3>Authy's Contextual Auth</h3>
-                      <p>
-                        Developed a new feature that enhances the security model
-                        of every Authy customer by learning from the user's
-                        context and providing a risk model for each 2FA event
+                      <h3>Twilio - Contextual Auth</h3>
+                      <p className="padding-sides">
+                        Being a part of the Account Security team at <a className="highlighted" href='https://www.twilio.com/' target="_blank" rel="noreferrer">Twilio</a>, I developed a Go microservice that enhances the security model
+                        of every <a className="highlighted" href='https://authy.com/' target="_blank" rel="noreferrer">Authy</a> customer by learning from the user's
+                        context and providing a risk model for each 2FA event using <a className="highlighted" href='https://towardsdatascience.com/anomaly-detection-for-dummies-15f148e559c1' target="_blank" rel="noreferrer">anomaly detection</a>.
                       </p>
                     </Carousel.Caption>
                   </Carousel.Item>

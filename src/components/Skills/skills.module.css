@@ -176,6 +176,26 @@ path {
   animation-timing-function: linear;
 }
 
+.skillIcon {
+  width: 100%;
+  height: 100%;
+  display: inline-flex;
+  margin-right: 6px;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  border: 1px solid rgba(255, 255, 255, 0);
+  z-index: 9999;
+}
+
+.largeIcon {
+  padding: 25%;
+}
+
+.smallIcon {
+  padding: 15%;
+}
+
 /* @keyframes circle-fill {
   0% {
     clip-path: polygon(

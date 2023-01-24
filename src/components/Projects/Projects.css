@@ -100,6 +100,28 @@
   width: 5%;
 }
 
+.highlighted {
+  color: white;
+  position: relative;
+  text-decoration: none;
+  background: linear-gradient(to right, #9175e3, rgba(100, 200, 200, 1)),
+    linear-gradient(to right, #45fee8, #00b6fe, #9175e3);
+  background-size: 100% 3px, 0 3px;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 400ms;
+}
+
+.highlighted:hover {
+  color: white;
+  background-size: 0 3px, 100% 3px;
+}
+
+.padding-sides {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
 @media only screen and (max-width: 600px) {
   .carousel-container {
     border-radius: 25px;
