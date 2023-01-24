@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/devcale-site/static/css/main.6cbdfa9b.css",
-    "main.js": "/devcale-site/static/js/main.ecbcdc12.js",
+    "main.css": "/devcale-site/static/css/main.eaecb4d2.css",
+    "main.js": "/devcale-site/static/js/main.1e68ff4e.js",
     "static/js/787.fb771931.chunk.js": "/devcale-site/static/js/787.fb771931.chunk.js",
     "static/media/parchapp.jpg": "/devcale-site/static/media/parchapp.14cb2ef3b4f6df61a610.jpg",
     "static/media/wizard-chess.jpg": "/devcale-site/static/media/wizard-chess.cfcc056dc2c2e8ee230d.jpg",
@@ -10,16 +10,33 @@
     "static/media/CentraNo2-Medium.ttf": "/devcale-site/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
     "static/media/CentraNo2-Book.ttf": "/devcale-site/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
     "static/media/header.avif": "/devcale-site/static/media/header.55df4c050af27f51d270.avif",
+    "static/media/nestjs.svg": "/devcale-site/static/media/nestjs.a2a319b6391bcd532c1147ac426d0fc0.svg",
+    "static/media/flutter.svg": "/devcale-site/static/media/flutter.c2663655609ecef6d59e9c99ca60e793.svg",
+    "static/media/database.svg": "/devcale-site/static/media/database.a26551d4d789e6084ca336ddde7a8a41.svg",
+    "static/media/react.svg": "/devcale-site/static/media/react.3032cd5c8750265cf3e99a423995a889.svg",
+    "static/media/Go.svg": "/devcale-site/static/media/Go.ff47bc51ea4b146b8397746ddb9bd932.svg",
+    "static/media/testing.svg": "/devcale-site/static/media/testing.edea320eb52b4b26957a1c03e952c23d.svg",
+    "static/media/pythonIcon.svg": "/devcale-site/static/media/pythonIcon.c979eae5ecda9e9882cda534ed6f6bdf.svg",
+    "static/media/agile.svg": "/devcale-site/static/media/agile.bfb94a5ed3009296236d762231e87645.svg",
+    "static/media/csharp.svg": "/devcale-site/static/media/csharp.d80929c7d9bc1867c98aebba0793770e.svg",
+    "static/media/cloud.svg": "/devcale-site/static/media/cloud.3a2f12abf6a3a3e075dce6e6abf9bea5.svg",
+    "static/media/java.svg": "/devcale-site/static/media/java.a1122c336d13a8c3baad7efe12529dcc.svg",
+    "static/media/angular.svg": "/devcale-site/static/media/angular.adf5b35dd5ac13834e57cf563a503413.svg",
+    "static/media/dart.svg": "/devcale-site/static/media/dart.222d8e37ae6b74a82346c148b87d9e93.svg",
     "static/media/github.svg": "/devcale-site/static/media/github.97ed8e7eef60d61ca469881dd6f34511.svg",
+    "static/media/expressjs.svg": "/devcale-site/static/media/expressjs.7851778c9d2cee4e97795362aff51353.svg",
     "static/media/twitter.svg": "/devcale-site/static/media/twitter.8e1c22ff2166b6057bc66bca04a11872.svg",
+    "static/media/android.svg": "/devcale-site/static/media/android.0f1f428a6c2a5fb0920d5fade441aad8.svg",
     "index.html": "/devcale-site/index.html",
+    "static/media/javascript.svg": "/devcale-site/static/media/javascript.b6db645031dc75ac526ecd80da6949f9.svg",
     "static/media/navicon1.svg": "/devcale-site/static/media/navicon1.721d5414c26365f117e71d46b6641cb2.svg",
-    "main.6cbdfa9b.css.map": "/devcale-site/static/css/main.6cbdfa9b.css.map",
-    "main.ecbcdc12.js.map": "/devcale-site/static/js/main.ecbcdc12.js.map",
+    "static/media/vue.svg": "/devcale-site/static/media/vue.74b38af1a36360780c5c670d603c571b.svg",
+    "main.eaecb4d2.css.map": "/devcale-site/static/css/main.eaecb4d2.css.map",
+    "main.1e68ff4e.js.map": "/devcale-site/static/js/main.1e68ff4e.js.map",
     "787.fb771931.chunk.js.map": "/devcale-site/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6cbdfa9b.css",
-    "static/js/main.ecbcdc12.js"
+    "static/css/main.eaecb4d2.css",
+    "static/js/main.1e68ff4e.js"
   ]
 }
