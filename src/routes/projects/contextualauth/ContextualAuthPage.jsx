@@ -55,17 +55,27 @@ export const ContextualAuthPage = () => {
             <div className={styling.pageDescriptionMed}>
               The diagram presented here illustrates the seamless and secure
               authentication flow, along with the contextual risk assessment,
-              implemented in the project. It provides a visual representation of
+              implemented in the project. 
+              <br />
+              <br />
+              It provides a visual representation of
               the steps involved in the authentication process, from the user
               inputting their login credentials to the verification of their
-              identity through two-factor authentication. Here is an overview of
+              identity through two-factor authentication. 
+              <br />
+              <br />
+              Here is an overview of
               each step:
+              <br />
+              <br />
               <div className={styling.orderedListContainer}>
                 <ol>
                   <li>
                     The user initiates the authentication process by inputting
                     their login credentials (username and password) into the
                     client's web interface.
+                    <br />
+              <br />
                   </li>
                   <li>
                     A JavaScript tracker efficiently captures crucial
@@ -73,22 +83,30 @@ export const ContextualAuthPage = () => {
                     valuable data related to their session. This information is
                     seamlessly transmitted to Segment, a powerful analytics
                     platform.
+                    <br />
+              <br />
                   </li>
                   <li>
                     The Contextual Authentication API, tightly integrated with
                     the Segment platform, receives the transmitted data.
                     Leveraging this contextual information, the API initiates
                     the next steps in the authentication process.
+                    <br />
+              <br />
                   </li>
                   <li>
                     The user is prompted to provide a two-factor authentication
                     (2FA) code to further validate their identity.
+                    <br />
+              <br />
                   </li>
                   <li>
                     To retrieve the 2FA code, the user unlocks their mobile
                     device and accesses the Authy app. Upon inputting the 2FA
                     code into the web interface, information from the phone is
                     instantly transmitted to the Contextual Authentication API.
+                    <br />
+              <br />
                   </li>
                   <li>
                     The contextual authentication system performs a thorough
@@ -97,13 +115,12 @@ export const ContextualAuthPage = () => {
                     associated with the login event, taking into account factors
                     such as time intervals between web login and 2FA events.{" "}
                     <br />
-                    <br />
-                    This risk assessment provides valuable insights into
-                    potential security threats and allows for prompt action to
-                    be taken.
+              <br />
                   </li>
                 </ol>
               </div>
+              This risk assessment provides valuable insights into potential
+              security threats and allows for prompt action to be taken.
             </div>
           </div>
         </div>
@@ -190,7 +207,7 @@ export const ContextualAuthPage = () => {
               enhance security without compromising usability was recognized as
               a significant achievement. Their accolades and positive feedback
               served as a testament to my hard work, technical prowess, and
-              ability to deliver exceptional results
+              ability to deliver exceptional results.
             </div>
           </div>
         </div>

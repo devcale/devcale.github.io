@@ -68,7 +68,7 @@ export const Skills = () => {
                     </Col>
                     <Col className={`${styles.colSkill} d-flex align-items-center justify-content-center`}>
                       <div className="justify-content-center"> 
-                        <div ref = {circleOne} className={`d-flex align-items-center justify-content-center ${styles.circle} ${styles.medium} ${rowOneVisible ? styles.animateCircle : ''}`}>
+                        <div ref = {circleOne} className={`d-flex align-items-center justify-content-center ${styles.circle} ${styles.high} ${rowOneVisible ? styles.animateCircle : ''}`}>
                           <div  className={styles.circleOverlay}>
                           <img className={`${styles.skillIcon} ${styles.smallIcon}`} src={goIcon} alt='' />
                           </div>
@@ -107,7 +107,7 @@ export const Skills = () => {
                     </Col>
                     <Col className={`${styles.colSkill} d-flex align-items-center justify-content-center`}>
                       <div className="justify-content-center"> 
-                        <div ref = {circleTwo} className={`d-flex align-items-center justify-content-center ${styles.circle} ${styles.medium} ${rowTwoVisible ? styles.animateCircle : ''}`}>
+                        <div ref = {circleTwo} className={`d-flex align-items-center justify-content-center ${styles.circle} ${styles.high} ${rowTwoVisible ? styles.animateCircle : ''}`}>
                           <div  className={styles.circleOverlay}>
                           <img className={`${styles.skillIcon} ${styles.largeIcon}`} src={javaIcon} alt='' />
                           </div>
@@ -146,7 +146,7 @@ export const Skills = () => {
                     </Col>
                     <Col className={`${styles.colSkill} d-flex align-items-center justify-content-center`}>
                       <div className="justify-content-center"> 
-                        <div ref = {circleThree} className={`d-flex align-items-center justify-content-center ${styles.circle} ${styles.medLow} ${rowThreeVisible ? styles.animateCircle : ''}`}>
+                        <div ref = {circleThree} className={`d-flex align-items-center justify-content-center ${styles.circle} ${styles.high} ${rowThreeVisible ? styles.animateCircle : ''}`}>
                           <div  className={styles.circleOverlay}>
                           <img className={`${styles.skillIcon} ${styles.largeIcon}`} src={angularIcon} alt='' />
                           </div>
@@ -157,7 +157,7 @@ export const Skills = () => {
                     </Col>
                     <Col className={`${styles.colSkill} d-flex align-items-center justify-content-center`}>
                       <div className="justify-content-center"> 
-                        <div ref = {circleThree} className={`d-flex align-items-center justify-content-center ${styles.circle} ${styles.medium} ${rowThreeVisible ? styles.animateCircle : ''}`}>
+                        <div ref = {circleThree} className={`d-flex align-items-center justify-content-center ${styles.circle} ${styles.high} ${rowThreeVisible ? styles.animateCircle : ''}`}>
                           <div  className={styles.circleOverlay}>
                           <img className={`${styles.skillIcon} ${styles.largeIcon}`} src={vueIcon} alt='' />
                           </div>
@@ -185,7 +185,7 @@ export const Skills = () => {
                     </Col>
                     <Col className={`${styles.colSkill} d-flex align-items-center justify-content-center`}>
                       <div className="justify-content-center"> 
-                        <div ref = {circleFour} className={`d-flex align-items-center justify-content-center ${styles.circle} ${styles.medLow} ${rowFourVisible ? styles.animateCircle : ''}`}>
+                        <div ref = {circleFour} className={`d-flex align-items-center justify-content-center ${styles.circle} ${styles.high} ${rowFourVisible ? styles.animateCircle : ''}`}>
                           <div  className={styles.circleOverlay}>
                           <img className={`${styles.skillIcon} ${styles.largeIcon}`} src={expressIcon} alt='' />
                           </div>
@@ -196,7 +196,7 @@ export const Skills = () => {
                     </Col>
                     <Col className={`${styles.colSkill} d-flex align-items-center justify-content-center`}>
                       <div className="justify-content-center"> 
-                        <div ref = {circleFour} className={`d-flex align-items-center justify-content-center ${styles.circle} ${styles.medium} ${rowFourVisible ? styles.animateCircle : ''}`}>
+                        <div ref = {circleFour} className={`d-flex align-items-center justify-content-center ${styles.circle} ${styles.high} ${rowFourVisible ? styles.animateCircle : ''}`}>
                           <div  className={styles.circleOverlay}>
                           <img className={`${styles.skillIcon} ${styles.largeIcon}`} src={goIcon} alt='' />
                           </div>
@@ -213,7 +213,7 @@ export const Skills = () => {
                   <Row className={styles.rowSkill}>
                   <Col className={`${styles.colSkill} d-flex align-items-center justify-content-center`}>
                       <div className="justify-content-center"> 
-                        <div ref = {circleFive} className={`d-flex align-items-center justify-content-center ${styles.circle} ${styles.medium} ${rowFiveVisible ? styles.animateCircle : ''}`}>
+                        <div ref = {circleFive} className={`d-flex align-items-center justify-content-center ${styles.circle} ${styles.high} ${rowFiveVisible ? styles.animateCircle : ''}`}>
                           <div  className={styles.circleOverlay}>
                           <img className={`${styles.skillIcon} ${styles.largeIcon}`} src={flutterIcon} alt='' />
                           </div>
@@ -224,7 +224,7 @@ export const Skills = () => {
                     </Col>
                     <Col className={`${styles.colSkill} d-flex align-items-center justify-content-center`}>
                       <div className="justify-content-center"> 
-                        <div ref = {circleFive} className={`d-flex align-items-center justify-content-center ${styles.circle} ${styles.medLow} ${rowFiveVisible ? styles.animateCircle : ''}`}>
+                        <div ref = {circleFive} className={`d-flex align-items-center justify-content-center ${styles.circle} ${styles.high} ${rowFiveVisible ? styles.animateCircle : ''}`}>
                           <div  className={styles.circleOverlay}>
                           <img className={`${styles.skillIcon} ${styles.largeIcon}`} src={androidIcon} alt='' />
                           </div>
@@ -235,7 +235,7 @@ export const Skills = () => {
                     </Col>
                     <Col className={`${styles.colSkill} d-flex align-items-center justify-content-center`}>
                       <div className="justify-content-center"> 
-                      <div ref = {circleFive} className={`d-flex align-items-center justify-content-center ${styles.circle} ${styles.medLow} ${rowFiveVisible ? styles.animateCircle : ''} `}>
+                      <div ref = {circleFive} className={`d-flex align-items-center justify-content-center ${styles.circle} ${styles.high} ${rowFiveVisible ? styles.animateCircle : ''} `}>
                           <div  className={styles.circleOverlay}>
                           <img className={`${styles.skillIcon} ${styles.largeIcon}`} src={agileIcon} alt='' />
                           </div>
@@ -252,7 +252,7 @@ export const Skills = () => {
                   <Row className={styles.rowSkill}>
                   <Col className={`${styles.colSkill} d-flex align-items-center justify-content-center`}>
                       <div className="justify-content-center"> 
-                        <div ref = {circleSix} className={`d-flex align-items-center justify-content-center ${styles.circle} ${styles.medLow} ${rowSixVisible ? styles.animateCircle : ''} `}>
+                        <div ref = {circleSix} className={`d-flex align-items-center justify-content-center ${styles.circle} ${styles.high} ${rowSixVisible ? styles.animateCircle : ''} `}>
                           <div  className={styles.circleOverlay}>
                           <img className={`${styles.skillIcon} ${styles.largeIcon}`} src={cloudIcon} alt='' />
                           </div>
@@ -274,7 +274,7 @@ export const Skills = () => {
                     </Col>
                     <Col className={`${styles.colSkill} d-flex align-items-center justify-content-center`}>
                       <div className="justify-content-center"> 
-                        <div ref = {circleSix} className={`d-flex align-items-center justify-content-center ${styles.circle} ${styles.medium} ${rowSixVisible ? styles.animateCircle : ''}`}>
+                        <div ref = {circleSix} className={`d-flex align-items-center justify-content-center ${styles.circle} ${styles.high} ${rowSixVisible ? styles.animateCircle : ''}`}>
                           <div  className={styles.circleOverlay}>
                           <img className={`${styles.skillIcon} ${styles.largeIcon}`} src={testingIcon} alt='' />
                           </div>

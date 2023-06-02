@@ -142,6 +142,8 @@
     margin-top: 5%;
     margin-bottom: 5%;
     font-size: 3.2vw;
+    text-align: justify;
+    text-justify: inter-word;
   }
 }
 
@@ -282,6 +284,8 @@
 
   .description {
     font-size: 1.8vw;
+    text-align: justify;
+    text-justify: inter-word;
   }
 }
 
@@ -422,6 +426,8 @@
 
   .description {
     font-size: 1.4vw;
+    text-align: justify;
+    text-justify: inter-word;
   }
 }
 
@@ -562,5 +568,7 @@
 
   .description {
     font-size: 1.2vw;
+    text-align: justify;
+    text-justify: inter-word;
   }
 }
