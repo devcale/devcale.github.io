@@ -1,0 +1,566 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 768px) {
+  .projectContainer {
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding-bottom: 1%;
+  }
+
+  .centeredContainer {
+    width: 80vw;
+  }
+
+  .project-img-container {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    border-radius: 50px 50px 50px 50px;
+    margin-top: 10%;
+  }
+
+  .project-img {
+    border-radius: 50px 50px 50px 50px;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .carcassonne-main {
+    background-image: url("../../assets/img/projects/carcassonne/gameplay2.png");
+  }
+
+  .carcassonne-color-main {
+    color: #f3b73e;
+  }
+  .carcassonne-separator-color {
+    background-color: #d9a338;
+  }
+  .carcassonne-background-color {
+    background-color: #313540;
+  }
+
+  .wizardchess-main {
+    background-image: url("../../assets/img/projects/wizardchess/wizard\ light\ layout.png");
+  }
+
+  .wizardchess-color-main {
+    color: #fdcc67;
+  }
+  .wizardchess-separator-color {
+    background-color: #c9a253;
+  }
+  .wizardchess-background-color {
+    background-color: #24120f;
+  }
+
+  .contextualauth-main {
+    background-image: url("../../assets/img/projects/contextualauth/anomaly\ algorithm.png");
+  }
+
+  .contextualauth-color-main {
+    color: #dbdbdb;
+  }
+  .contextualauth-separator-color {
+    background-color: #9c9c9c;
+  }
+  .contextualauth-background-color {
+    background-color: #121212;
+  }
+
+  .parchapp-main {
+    background-image: url("../../assets/img/projects/parchapp/parchapp\ main.png");
+  }
+
+  .parchapp-color-main {
+    color: #9147ff;
+  }
+  .parchapp-separator-color {
+    background-color: #bf94ff;
+  }
+  .parchapp-background-color {
+    background-color: #12062a;
+  }
+
+  .project-title {
+    margin-top: 8%;
+  }
+
+  .titleSeparator {
+    height: 2px;
+    width: 100%;
+  }
+
+  .datasheetContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1%;
+  }
+
+  .datasheetLeft {
+    width: 100%;
+  }
+
+  .datasheetLeft table {
+    width: 100%;
+  }
+
+  .datasheetRight {
+    width: 100%;
+  }
+
+  td {
+    padding-bottom: 2%;
+  }
+
+  .categoryList {
+    list-style: none;
+    padding-left: 0;
+  }
+
+  .tableTitle {
+    vertical-align: top;
+    width: 18vw;
+    font-size: 3.2vw;
+  }
+
+  .tableContent {
+    vertical-align: top;
+    width: 15vw;
+    font-size: 3.2vw;
+  }
+
+  .description {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 3.2vw;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .projectContainer {
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding-bottom: 1%;
+  }
+
+  .centeredContainer {
+    width: 90vw;
+  }
+
+  .project-img-container {
+    width: 100%;
+    height: 65vh;
+    display: flex;
+    justify-content: center;
+    border-radius: 0 0 50px 50px;
+  }
+
+  .project-img {
+    border-radius: 0 0 50px 50px;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .carcassonne-main {
+    background-image: url("../../assets/img/projects/carcassonne/gameplay2.png");
+  }
+
+  .carcassonne-color-main {
+    color: #f3b73e;
+  }
+  .carcassonne-separator-color {
+    background-color: #d9a338;
+  }
+  .carcassonne-background-color {
+    background-color: #313540;
+  }
+
+  .wizardchess-main {
+    background-image: url("../../assets/img/projects/wizardchess/wizard\ light\ layout.png");
+  }
+
+  .wizardchess-color-main {
+    color: #fdcc67;
+  }
+  .wizardchess-separator-color {
+    background-color: #c9a253;
+  }
+  .wizardchess-background-color {
+    background-color: #24120f;
+  }
+
+  .contextualauth-main {
+    background-image: url("../../assets/img/projects/contextualauth/anomaly\ algorithm.png");
+  }
+
+  .contextualauth-color-main {
+    color: #dbdbdb;
+  }
+  .contextualauth-separator-color {
+    background-color: #9c9c9c;
+  }
+  .contextualauth-background-color {
+    background-color: #121212;
+  }
+
+  .parchapp-main {
+    background-image: url("../../assets/img/projects/parchapp/parchapp\ main.png");
+  }
+
+  .parchapp-color-main {
+    color: #9147ff;
+  }
+  .parchapp-separator-color {
+    background-color: #bf94ff;
+  }
+  .parchapp-background-color {
+    background-color: #12062a;
+  }
+
+  .project-title {
+    margin-top: 2%;
+  }
+
+  .titleSeparator {
+    height: 2px;
+    width: 100%;
+  }
+
+  .datasheetContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+    margin-bottom: 5%;
+  }
+
+  .datasheetLeft {
+    width: 40%;
+  }
+
+  .datasheetRight {
+    width: 50%;
+  }
+
+  td {
+    padding-bottom: 2%;
+  }
+
+  .categoryList {
+    list-style: none;
+    padding-left: 0;
+  }
+
+  .tableTitle {
+    vertical-align: top;
+    width: 6vw;
+    font-size: 1.8vw;
+  }
+
+  .tableContent {
+    vertical-align: top;
+    width: 15vw;
+    font-size: 1.8vw;
+  }
+
+  .description {
+    font-size: 1.8vw;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .projectContainer {
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding-bottom: 1%;
+  }
+
+  .centeredContainer {
+    width: 80vw;
+  }
+
+  .project-img-container {
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    border-radius: 0 0 50px 50px;
+  }
+
+  .project-img {
+    border-radius: 0 0 50px 50px;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .carcassonne-main {
+    background-image: url("../../assets/img/projects/carcassonne/gameplay2.png");
+  }
+
+  .carcassonne-color-main {
+    color: #f3b73e;
+  }
+  .carcassonne-separator-color {
+    background-color: #d9a338;
+  }
+  .carcassonne-background-color {
+    /* background-color: red; */
+    background-color: #313540;
+  }
+
+  .wizardchess-main {
+    background-image: url("../../assets/img/projects/wizardchess/wizard\ light\ layout.png");
+  }
+
+  .wizardchess-color-main {
+    color: #fdcc67;
+  }
+  .wizardchess-separator-color {
+    background-color: #c9a253;
+  }
+  .wizardchess-background-color {
+    background-color: #24120f;
+  }
+
+  .contextualauth-main {
+    background-image: url("../../assets/img/projects/contextualauth/anomaly\ algorithm.png");
+  }
+
+  .contextualauth-color-main {
+    color: #dbdbdb;
+  }
+  .contextualauth-separator-color {
+    background-color: #9c9c9c;
+  }
+  .contextualauth-background-color {
+    background-color: #121212;
+  }
+
+  .parchapp-main {
+    background-image: url("../../assets/img/projects/parchapp/parchapp\ main.png");
+  }
+
+  .parchapp-color-main {
+    color: #9147ff;
+  }
+  .parchapp-separator-color {
+    background-color: #bf94ff;
+  }
+  .parchapp-background-color {
+    background-color: #12062a;
+  }
+
+  .project-title {
+    margin-top: 2%;
+  }
+
+  .titleSeparator {
+    height: 2px;
+    width: 100%;
+  }
+
+  .datasheetContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+  }
+
+  .datasheetLeft {
+    width: 40%;
+  }
+
+  .datasheetRight {
+    width: 60%;
+  }
+
+  td {
+    padding-bottom: 2%;
+  }
+
+  .categoryList {
+    list-style: none;
+    padding-left: 0;
+  }
+
+  .tableTitle {
+    vertical-align: top;
+    width: 6vw;
+    font-size: 1.4vw;
+  }
+
+  .tableContent {
+    vertical-align: top;
+    width: 15vw;
+    font-size: 1.4vw;
+  }
+
+  .description {
+    font-size: 1.4vw;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .projectContainer {
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding-bottom: 1%;
+  }
+
+  .centeredContainer {
+    width: 80vw;
+  }
+
+  .project-img-container {
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    border-radius: 0 0 50px 50px;
+  }
+
+  .project-img {
+    border-radius: 0 0 50px 50px;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .carcassonne-main {
+    background-image: url("../../assets/img/projects/carcassonne/gameplay2.png");
+  }
+
+  .carcassonne-color-main {
+    color: #f3b73e;
+  }
+  .carcassonne-separator-color {
+    background-color: #d9a338;
+  }
+  .carcassonne-background-color {
+    background-color: #313540;
+    /* background-color: blue; */
+  }
+
+  .wizardchess-main {
+    background-image: url("../../assets/img/projects/wizardchess/wizard\ light\ layout.png");
+  }
+
+  .wizardchess-color-main {
+    color: #fdcc67;
+  }
+  .wizardchess-separator-color {
+    background-color: #c9a253;
+  }
+  .wizardchess-background-color {
+    background-color: #24120f;
+  }
+
+  .contextualauth-main {
+    background-image: url("../../assets/img/projects/contextualauth/anomaly\ algorithm.png");
+  }
+
+  .contextualauth-color-main {
+    color: #dbdbdb;
+  }
+  .contextualauth-separator-color {
+    background-color: #9c9c9c;
+  }
+  .contextualauth-background-color {
+    background-color: #121212;
+  }
+
+  .parchapp-main {
+    background-image: url("../../assets/img/projects/parchapp/parchapp\ main.png");
+  }
+
+  .parchapp-color-main {
+    color: #9147ff;
+  }
+  .parchapp-separator-color {
+    background-color: #bf94ff;
+  }
+  .parchapp-background-color {
+    background-color: #12062a;
+  }
+
+  .project-title {
+    margin-top: 2%;
+  }
+
+  .titleSeparator {
+    height: 2px;
+    width: 100%;
+  }
+
+  .datasheetContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+  }
+
+  .datasheetLeft {
+    width: 40%;
+  }
+
+  .datasheetRight {
+    width: 55%;
+  }
+
+  td {
+    padding-bottom: 2%;
+  }
+
+  .categoryList {
+    list-style: none;
+    padding-left: 0;
+  }
+
+  .tableTitle {
+    vertical-align: top;
+    width: 10vw;
+    font-size: 1.2vw;
+  }
+
+  .tableContent {
+    vertical-align: top;
+    width: 15vw;
+    font-size: 1.2vw;
+  }
+
+  .description {
+    font-size: 1.2vw;
+  }
+}

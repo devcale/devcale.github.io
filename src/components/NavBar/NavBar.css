@@ -1,5 +1,3 @@
-/************ Navbar Css ************/
-
 nav.navbar {
   padding: 18px 0;
   position: fixed;
@@ -13,23 +11,31 @@ nav.navbar.scrolled {
   background-color: rgba(18, 18, 18, 1);
   /* background-color: #121212; */
 }
-nav.navbar a.navbar-brand {
-  width: 9%;
-}
 
 .no-select {
   user-select: none;
 }
 
-nav.navbar .navbar-nav .nav-link.navbar-link {
-  font-weight: 400;
-  color: #fff !important;
-  letter-spacing: 0.8px;
-  padding: 0 25px;
-  font-size: 18px;
-  opacity: 0.75;
-  transition: 0.3s ease-in-out;
+.navbar-link {
+  margin-left: 10%;
 }
+
+.nav-dropdown {
+  margin-left: 10%;
+  padding-right: var(--bs-navbar-nav-link-padding-x);
+  padding-left: var(--bs-navbar-nav-link-padding-x);
+}
+
+.dropdown-item a:link {
+  text-decoration: none;
+  color: black;
+}
+
+.dropdown-item a {
+  text-decoration: none;
+  color: black;
+}
+
 nav.navbar .navbar-nav a.nav-link.navbar-link:hover,
 nav.navbar .navbar-nav a.nav-link.navbar-link.active {
   opacity: 1;

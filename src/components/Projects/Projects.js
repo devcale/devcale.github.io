@@ -1,9 +1,11 @@
 import "./Projects.css";
 import { Col, Container, Row, Carousel } from "react-bootstrap";
 import testImg from "../../assets/img/header.avif";
-import wizard from "../../assets/img/wizard-chess.jpg";
-import parchapp from "../../assets/img/parchapp.jpg";
-import twilio from "../../assets/img/twilio.jpg";
+import wizard from "../../assets/img/projects/wizardchess/wizard-chess.jpg";
+import parchapp from "../../assets/img/projects/parchapp/parchapp.jpg";
+import twilio from "../../assets/img/projects/contextualauth/twilio.jpg";
+
+import carcassonne from "../../assets/img/projects/carcassonne/carcassonne.png";
 
 export const Projects = () => {
   return (
@@ -56,6 +58,20 @@ export const Projects = () => {
                         Being a part of the Account Security team at <a className="highlighted" href='https://www.twilio.com/' target="_blank" rel="noreferrer">Twilio</a>, I developed a Go microservice that enhances the security model
                         of every <a className="highlighted" href='https://authy.com/' target="_blank" rel="noreferrer">Authy</a> customer by learning from the user's
                         context and providing a risk model for each 2FA event using <a className="highlighted" href='https://towardsdatascience.com/anomaly-detection-for-dummies-15f148e559c1' target="_blank" rel="noreferrer">anomaly detection</a>.
+                      </p>
+                    </Carousel.Caption>
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    <img
+                      className="d-block w-100"
+                      src={carcassonne}
+                      alt="Authy's Contextual Auth"
+                    />
+
+                    <Carousel.Caption>
+                      <h3> Carcassonne Challenge </h3>
+                      <p className="padding-sides">
+                        As a part of my selection process for Adidas, I developed a web implementation of the popular board game Carcassonne, called <a className="highlighted" href='https://devcale.github.io/Carcassonne-Challenge/' target="_blank" rel="noreferrer">Carcassonne Challenge</a>. I developed the entire logic of the game in react and wrote down documentation which you can read in the <a className="highlighted" href='https://github.com/devcale/Carcassonne-Challenge' target="_blank" rel="noreferrer">project's page</a>.
                       </p>
                     </Carousel.Caption>
                   </Carousel.Item>

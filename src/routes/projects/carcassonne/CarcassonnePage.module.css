@@ -1,0 +1,630 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 768px) {
+  .projectContainer {
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .centeredContainer {
+    width: 80vw;
+  }
+
+  .project-img-container {
+    width: 100%;
+    height: 65vh;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.45);
+    backdrop-filter: blur(5px);
+    border-radius: 0 0 50px 50px;
+    z-index: 100;
+  }
+
+  .project-img {
+    background-image: url("../../../assets/img/projects/carcassonne/carcassonne-gameplay.png");
+    filter: grayscale(30%) opacity(80%);
+    border-radius: 0 0 50px 50px;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    box-shadow: 0px 0px 1.5rem #525252;
+  }
+
+  .project-title {
+    margin-top: 2%;
+  }
+
+  .titleSeparator {
+    background-color: #fff;
+    height: 2px;
+    width: 100%;
+  }
+
+  .datasheetContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+  }
+
+  .datasheetLeft {
+    width: 40%;
+  }
+
+  .datasheetRight {
+    width: 45%;
+  }
+
+  .categoryList {
+    list-style: none;
+    padding-left: 0;
+  }
+
+  .tableTitle {
+    vertical-align: top;
+    width: 5vw;
+  }
+
+  .tableContent {
+    vertical-align: top;
+    width: 10vw;
+  }
+
+  .gallerySection {
+    background-color: #313540;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+  }
+
+  .pageSection {
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 4%;
+  }
+
+  .pageName {
+    padding: 5px;
+    color: #6c758c;
+    font-size: 3.8vw;
+  }
+
+  .pageContent {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .pageContentVert {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .pageImgContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+  }
+
+  .pageImg {
+    width: 80vw;
+    height: auto;
+  }
+
+  .pageImgMed {
+    width: 80vw;
+    height: auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
+  .pageSmallImgContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+  }
+
+  .pageSmallImg {
+    width: 80vw;
+    height: auto;
+  }
+
+  .pageDescription {
+    width: 80%;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+
+  .pageDescriptionMed {
+    width: 80%;
+    text-align: justify;
+    text-justify: inter-word;
+    margin-bottom: 5%;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .projectContainer {
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .centeredContainer {
+    width: 80vw;
+  }
+
+  .project-img-container {
+    width: 100%;
+    height: 65vh;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.45);
+    backdrop-filter: blur(5px);
+    border-radius: 0 0 50px 50px;
+    z-index: 100;
+  }
+
+  .project-img {
+    background-image: url("../../../assets/img/projects/carcassonne/carcassonne-gameplay.png");
+    filter: grayscale(30%) opacity(80%);
+    border-radius: 0 0 50px 50px;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    box-shadow: 0px 0px 1.5rem #525252;
+  }
+
+  .project-title {
+    margin-top: 2%;
+  }
+
+  .titleSeparator {
+    background-color: #fff;
+    height: 2px;
+    width: 100%;
+  }
+
+  .datasheetContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+  }
+
+  .datasheetLeft {
+    width: 40%;
+  }
+
+  .datasheetRight {
+    width: 45%;
+  }
+
+  .categoryList {
+    list-style: none;
+    padding-left: 0;
+  }
+
+  .tableTitle {
+    vertical-align: top;
+    width: 5vw;
+  }
+
+  .tableContent {
+    vertical-align: top;
+    width: 10vw;
+  }
+
+  .gallerySection {
+    background-color: #313540;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+  }
+
+  .pageSection {
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 4%;
+  }
+
+  .pageName {
+    padding: 5px;
+    color: #6c758c;
+  }
+
+  .pageContent {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .pageContentVert {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .pageImgContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+  }
+
+  .pageImg {
+    width: 80vw;
+    height: auto;
+  }
+
+  .pageImgMed {
+    width: 80vw;
+    height: auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
+  .pageSmallImgContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+  }
+
+  .pageSmallImg {
+    width: 80vw;
+    height: auto;
+  }
+
+  .pageDescription {
+    width: 80%;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+
+  .pageDescriptionMed {
+    width: 80%;
+    text-align: justify;
+    text-justify: inter-word;
+    margin-bottom: 5%;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .projectContainer {
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .centeredContainer {
+    width: 80vw;
+  }
+
+  .project-img-container {
+    width: 100%;
+    height: 65vh;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.45);
+    backdrop-filter: blur(5px);
+    border-radius: 0 0 50px 50px;
+    z-index: 100;
+  }
+
+  .project-img {
+    background-image: url("../../../assets/img/projects/carcassonne/carcassonne-gameplay.png");
+    filter: grayscale(30%) opacity(80%);
+    border-radius: 0 0 50px 50px;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    box-shadow: 0px 0px 1.5rem #525252;
+  }
+
+  .project-title {
+    margin-top: 2%;
+  }
+
+  .titleSeparator {
+    background-color: #fff;
+    height: 2px;
+    width: 100%;
+  }
+
+  .datasheetContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+  }
+
+  .datasheetLeft {
+    width: 40%;
+  }
+
+  .datasheetRight {
+    width: 45%;
+  }
+
+  .categoryList {
+    list-style: none;
+    padding-left: 0;
+  }
+
+  .tableTitle {
+    vertical-align: top;
+    width: 5vw;
+  }
+
+  .tableContent {
+    vertical-align: top;
+    width: 10vw;
+  }
+
+  .gallerySection {
+    background-color: #313540;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+  }
+
+  .pageSection {
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 4%;
+  }
+
+  .pageName {
+    padding: 5px;
+    color: #6c758c;
+  }
+
+  .pageContent {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .pageContentVert {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .pageImgContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+  }
+
+  .pageImg {
+    width: 80vw;
+    height: auto;
+  }
+
+  .pageImgMed {
+    width: 80vw;
+    height: auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
+  .pageSmallImgContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+  }
+
+  .pageSmallImg {
+    width: 70vw;
+    height: auto;
+  }
+
+  .pageDescription {
+    width: 80%;
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 1.4vw;
+  }
+
+  .pageDescriptionMed {
+    width: 80%;
+    text-align: justify;
+    text-justify: inter-word;
+    margin-bottom: 5%;
+    font-size: 1.4vw;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .projectContainer {
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .centeredContainer {
+    width: 80vw;
+  }
+
+  .project-img-container {
+    width: 100%;
+    height: 65vh;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.45);
+    backdrop-filter: blur(5px);
+    border-radius: 0 0 50px 50px;
+    z-index: 100;
+  }
+
+  .project-img {
+    background-image: url("../../../assets/img/projects/carcassonne/carcassonne-gameplay.png");
+    filter: grayscale(30%) opacity(80%);
+    border-radius: 0 0 50px 50px;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    box-shadow: 0px 0px 1.5rem #525252;
+  }
+
+  .project-title {
+    margin-top: 2%;
+  }
+
+  .titleSeparator {
+    background-color: #fff;
+    height: 2px;
+    width: 100%;
+  }
+
+  .datasheetContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+  }
+
+  .datasheetLeft {
+    width: 40%;
+  }
+
+  .datasheetRight {
+    width: 45%;
+  }
+
+  .categoryList {
+    list-style: none;
+    padding-left: 0;
+  }
+
+  .tableTitle {
+    vertical-align: top;
+    width: 5vw;
+  }
+
+  .tableContent {
+    vertical-align: top;
+    width: 10vw;
+  }
+
+  .gallerySection {
+    background-color: #313540;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+  }
+
+  .pageSection {
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 4%;
+  }
+
+  .pageName {
+    padding: 5px;
+    color: #6c758c;
+  }
+
+  .pageContent {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .pageContentVert {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .pageImgContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+  }
+
+  .pageImg {
+    width: 80vw;
+    height: auto;
+  }
+
+  .pageImgMed {
+    width: 60vw;
+    height: auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
+  .pageSmallImgContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+  }
+
+  .pageSmallImg {
+    width: 40vw;
+    height: auto;
+  }
+
+  .pageDescription {
+    width: 35%;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+
+  .pageDescriptionMed {
+    width: 80%;
+    text-align: justify;
+    text-justify: inter-word;
+    margin-bottom: 5%;
+  }
+}
