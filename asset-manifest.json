@@ -1,11 +1,28 @@
 {
   "files": {
-    "main.css": "/devcale-site/static/css/main.eaecb4d2.css",
-    "main.js": "/devcale-site/static/js/main.1e68ff4e.js",
+    "main.css": "/devcale-site/static/css/main.a743e059.css",
+    "main.js": "/devcale-site/static/js/main.714f64d8.js",
     "static/js/787.fb771931.chunk.js": "/devcale-site/static/js/787.fb771931.chunk.js",
+    "static/media/carcassonne-gameplay.png": "/devcale-site/static/media/carcassonne-gameplay.fa011a6f1743483c4885.png",
+    "static/media/a2selectmode.png": "/devcale-site/static/media/a2selectmode.7edd70a2a6f7350ed5ed.png",
+    "static/media/gameplay2.png": "/devcale-site/static/media/gameplay2.5acd4bf625b7b58b217a.png",
+    "static/media/wizard light layout.png": "/devcale-site/static/media/wizard light layout.45634b7e9ee700713ff4.png",
+    "static/media/gameplay1.png": "/devcale-site/static/media/gameplay1.962608765f5aba29cb77.png",
+    "static/media/gameover.png": "/devcale-site/static/media/gameover.d6912b19555fb257aeae.png",
+    "static/media/parchapp main.png": "/devcale-site/static/media/parchapp main.1d4a9ea4d2b418bd869b.png",
+    "static/media/carcassonne-menu.png": "/devcale-site/static/media/carcassonne-menu.861f7ca34225097919c0.png",
+    "static/media/carcassonne.png": "/devcale-site/static/media/carcassonne.1aca9dc6315d9257c214.png",
+    "static/media/boards.png": "/devcale-site/static/media/boards.04324b184a01bfb9c755.png",
+    "static/media/howto.png": "/devcale-site/static/media/howto.46e0eb9034a94a714cc6.png",
+    "static/media/leaderboardmern.png": "/devcale-site/static/media/leaderboardmern.136cdb5acd81c523540e.png",
+    "static/media/anomaly algorithm.png": "/devcale-site/static/media/anomaly algorithm.4e261caee8777fa1e86f.png",
+    "static/media/flow diagram.png": "/devcale-site/static/media/flow diagram.f55b6b98281bab560572.png",
+    "static/media/twilio demo.jpg": "/devcale-site/static/media/twilio demo.df88ab97f0d62bcfe0e7.jpg",
     "static/media/parchapp.jpg": "/devcale-site/static/media/parchapp.14cb2ef3b4f6df61a610.jpg",
     "static/media/wizard-chess.jpg": "/devcale-site/static/media/wizard-chess.cfcc056dc2c2e8ee230d.jpg",
+    "static/media/segment screen.png": "/devcale-site/static/media/segment screen.e7351cd5003ee1ec737e.png",
     "static/media/twilio.jpg": "/devcale-site/static/media/twilio.53076aceca66648888c9.jpg",
+    "static/media/testing page.png": "/devcale-site/static/media/testing page.78babe71e6c0186c9164.png",
     "static/media/CentraNo2-Bold.ttf": "/devcale-site/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
     "static/media/CentraNo2-Medium.ttf": "/devcale-site/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
     "static/media/CentraNo2-Book.ttf": "/devcale-site/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
@@ -31,12 +48,12 @@
     "static/media/javascript.svg": "/devcale-site/static/media/javascript.b6db645031dc75ac526ecd80da6949f9.svg",
     "static/media/navicon1.svg": "/devcale-site/static/media/navicon1.721d5414c26365f117e71d46b6641cb2.svg",
     "static/media/vue.svg": "/devcale-site/static/media/vue.74b38af1a36360780c5c670d603c571b.svg",
-    "main.eaecb4d2.css.map": "/devcale-site/static/css/main.eaecb4d2.css.map",
-    "main.1e68ff4e.js.map": "/devcale-site/static/js/main.1e68ff4e.js.map",
+    "main.a743e059.css.map": "/devcale-site/static/css/main.a743e059.css.map",
+    "main.714f64d8.js.map": "/devcale-site/static/js/main.714f64d8.js.map",
     "787.fb771931.chunk.js.map": "/devcale-site/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.eaecb4d2.css",
-    "static/js/main.1e68ff4e.js"
+    "static/css/main.a743e059.css",
+    "static/js/main.714f64d8.js"
   ]
 }
