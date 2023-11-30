@@ -17,7 +17,7 @@ I get excited for opportunities that allow me to showcase my knowledge in both s
 
 - 🔭 I’m currently working on freelance and personal projects, mostly focused on practicing and gaining experience with new technologies. Currently developing a Star Type Classification Restful API. 
 - 🌱 I’m currently learning API development using ASP .NET and Spring Boot. 
-- 📫 How to reach me: You can find all my socials at [my web page](https://devcale.github.io/devcale-site/).
+- 📫 How to reach me: You can find all my socials at [my web page](https://devcale.github.io/).
 - ⚡ Fun fact: I love learning about ancient civilizations 🏛 and space science 🌠.
 
 <!--

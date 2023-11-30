@@ -16,23 +16,23 @@ import { ParchappPage } from './routes/projects/parchapp/ParchappPage';
 
 const router = createBrowserRouter([
   {
-    path: "/devcale-site",
+    path: "/",
     element: <HomePage />,
   },
   {
-    path: "/devcale-site/projects/carcassonne",
+    path: "/projects/carcassonne",
     element: <CarcassonnePage />,
   },
   {
-    path: "/devcale-site/projects/contextual-auth",
+    path: "/projects/contextual-auth",
     element: <ContextualAuthPage/>,
   },
   {
-    path: "/devcale-site/projects/wizard-chess",
+    path: "/projects/wizard-chess",
     element: <WizardChessPage  />,
   },
   {
-    path: "/devcale-site/projects/parchapp",
+    path: "/projects/parchapp",
     element: <ParchappPage  />,
   },
   
