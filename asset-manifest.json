@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.16af360a.css",
-    "main.js": "/static/js/main.25ab3bbc.js",
+    "main.js": "/static/js/main.9def7718.js",
     "static/js/787.fb771931.chunk.js": "/static/js/787.fb771931.chunk.js",
     "static/media/carcassonne-gameplay.png": "/static/media/carcassonne-gameplay.fa011a6f1743483c4885.png",
     "static/media/a2selectmode.png": "/static/media/a2selectmode.7edd70a2a6f7350ed5ed.png",
@@ -49,11 +49,11 @@
     "index.html": "/index.html",
     "static/media/vue.svg": "/static/media/vue.74b38af1a36360780c5c670d603c571b.svg",
     "main.16af360a.css.map": "/static/css/main.16af360a.css.map",
-    "main.25ab3bbc.js.map": "/static/js/main.25ab3bbc.js.map",
+    "main.9def7718.js.map": "/static/js/main.9def7718.js.map",
     "787.fb771931.chunk.js.map": "/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.16af360a.css",
-    "static/js/main.25ab3bbc.js"
+    "static/js/main.9def7718.js"
   ]
 }
